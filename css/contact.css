@@ -1,0 +1,127 @@
+.sec-wrap{
+   display: flex;
+   height: 75%;
+   align-items: center;
+   justify-content: left;
+   max-width: 1800px;
+   width: 100%;
+   margin: auto;
+
+}
+.sec-wrap .left-section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.sec-wrap .right-section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sec-wrap .wrap-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+    margin: 55px 15%;
+}
+.sec-wrap .wrap-left .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+}
+.sec-wrap .left h1{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 20px;
+    color: #000000;
+}
+.sec-wrap .left p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #616161;
+
+}
+.sec-wrap .wrap-left .cont-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+}
+.sec-wrap .wrap-left .cont-container p{
+    margin-left: 1em;
+}
+.sec-wrap .wrap-left .cont-container{
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #616161;
+    
+
+}
+.sec-wrap .right-section .right{
+    height: 75%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 3em;
+}
+.sec-wrap .right-section .right .title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+}
+.sec-wrap .right-section .right p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #616161;
+
+}
+.sec-wrap .right-section .right .name-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-wrap .right-section .right .name-wrap input{
+    width: 213px;
+    height: 35px;
+    border-radius: 10px ;
+}
+.sec-wrap .right-section .right .email input{
+    width: 100%;
+    height: 35px;
+    border-radius: 10px ;
+}
+.sec-wrap .right-section .right .message textarea{
+    width: 100%;
+    height: 200px; 
+    box-sizing: border-box;
+}
+.sec-wrap .right-section .right .cont-btn{
+    background: #233156;
+    border-radius: 10px;
+    padding: 12px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto;
+
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 262px;
+    height: 41px;
+    text-align: center;
+}

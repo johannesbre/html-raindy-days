@@ -1,0 +1,21 @@
+.sec-wrap .social{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.sec-wrap .social p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    transform: rotate(90deg);
+}
+.sec-wrap .social .line{
+    width: 24px;
+    height: 0px;
+    transform: rotate(90deg);
+border: 2px solid #000000;
+}

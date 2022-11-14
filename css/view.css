@@ -1,0 +1,119 @@
+.sec-wrap{
+   display: flex;
+   height: 70%;
+   align-items: center;
+   justify-content: left;
+   max-width: 1800px;
+   width: 100%;
+   margin: auto;
+
+}
+.sec-wrap .wrap-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+justify-content: space-around;
+padding: 2em;
+align-items: center;
+}
+.sec-wrap .wrap-right .right{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65%;
+width: 90%;
+}
+.sec-wrap .wrap-right .right h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 120%;
+    color: #000000;
+}
+.sec-wrap .wrap-right .right .comfort{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #616161;
+}
+.sec-wrap .wrap-right .right .desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    
+    color: #000000;
+}
+.sec-wrap .wrap-right .right .sizes{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+.sec-wrap .wrap-right .right .sizes a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #000000;
+    width: 40px;
+    text-align: center;
+    padding: 8px 10px;
+    background-color: #D9D9D9;
+
+}
+.sec-wrap .wrap-right .right .price{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #616161;
+}
+.sec-wrap .wrap-right .size-cont{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sec-wrap .wrap-right .continue{
+    display: flex;
+
+    width: 371px;
+    height: 56px;
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #000000;
+
+    background: #D9D9D9;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec-wrap .wrap-right .continue img{
+    width: 33px;
+    height: 30px;
+}
+.sec-wrap .left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-wrap .left img{
+    width: 392px;
+    height: 451px;
+}

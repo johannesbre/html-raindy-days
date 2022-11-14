@@ -1,0 +1,129 @@
+.sec-wrap{
+    display: flex;
+    height: 75%;
+    align-items: center;
+    justify-content: left;
+    max-width: 1800px;
+    width: 100%;
+    margin: auto;
+ }
+.sec-wrap .left-section p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 20px;
+    color: #4ECB71;
+}
+
+.sec-wrap .right{
+    border: 2px solid black;
+    border-radius: 20px;
+
+    width: 481px;
+    height: 600px;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.sec-wrap .right-section .right .check-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec-wrap .right-section .right .check-card .img{
+    width: 84px;
+    height: 97px;
+    border: 2px solid black;
+}
+.sec-wrap .right-section .right .check-card .img img{
+    width: 100%;
+    height: 100%;
+}
+.sec-wrap .right-section .right .check-card .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70px;
+}
+.sec-wrap .right-section .right .check-card .info .heading{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #616161;
+}
+
+.sec-wrap .right-section .right .check-card .info .size{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #616161;
+}
+
+.sec-wrap .right-section .right .check-card .price{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+color: #262323;
+}
+.sec-wrap .right-section .right .line{
+        width: 278px;
+        height: 1px;
+        border-bottom: 1px solid #616161;
+        margin: 0 auto;
+}
+.sec-wrap .right-section .right .card-cont{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-between;
+}
+.sec-wrap .right-section .right .card-cont .total{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #616161;
+
+}
+.sec-wrap .right-section .right .card-cont .price{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #262323;
+
+}
+.sec-wrap .right-section .right .check-card .total{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #616161;
+}
+.sec-wrap .right-section .right .check-card .price-cont .curr{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #616161;
+}
+.sec-wrap .right-section .right .check-card .price-cont .price{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #262323;
+}
+.sec-wrap .right-section .right .check-card .price-cont{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.sec-wrap .right-section .right .space{
+    width: 100%;
+    height: 20px;
+}

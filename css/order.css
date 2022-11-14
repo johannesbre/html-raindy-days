@@ -1,0 +1,218 @@
+.sec-wrap{
+    display: flex;
+    height: 75%;
+    align-items: center;
+    justify-content: left;
+    max-width: 1800px;
+    width: 100%;
+    margin: auto;
+ }
+ .sec-wrap .left{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 500px;
+    margin: 0 auto;
+}
+.sec-wrap .left .name-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec-wrap .left .title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+}
+.sec-wrap .left .name-wrap p, .sec-wrap .left .street p,.sec-wrap .left .message p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #616161;
+
+}
+.sec-wrap .left .name-wrap input{
+    border-radius: 10px;
+    width: 213px;
+    height: 35px;
+    border-color: #ABABAB;
+}
+.sec-wrap .left .street{
+    width: 100%;
+}
+.sec-wrap .left .street input{
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #ABABAB;
+
+}
+.sec-wrap .left .message{
+    width: 100%;
+}
+.sec-wrap .left .message textarea{
+    width: 100%;
+    height: 100%; 
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-color: #ABABAB;
+}
+.sec-wrap .left .cont-btn{
+    background: #233156;
+    border-radius: 10px;
+    padding: 12px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sec-wrap .left .Area{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.sec-wrap .left .Area .bigbar{
+    width: 235px;
+    height: 35px;
+    border-color: #ABABAB;
+    border-radius: 10px;
+}
+.sec-wrap .left .Area .smallbar{
+    width: 86px;
+    height: 35px;
+    border-color: #ABABAB;
+    border-radius: 10px;
+}
+.sec-wrap .left .Area p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #616161;
+}
+
+
+.sec-wrap .right{
+    border: 2px solid black;
+    border-radius: 20px;
+
+    width: 481px;
+    height: 600px;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.sec-wrap .right-section .right .check-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec-wrap .right-section .right .check-card .img{
+    width: 84px;
+    height: 97px;
+    border: 2px solid black;
+}
+.sec-wrap .right-section .right .check-card .img img{
+    width: 100%;
+    height: 100%;
+}
+.sec-wrap .right-section .right .check-card .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70px;
+}
+.sec-wrap .right-section .right .check-card .info .heading{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #616161;
+}
+
+.sec-wrap .right-section .right .check-card .info .size{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #616161;
+}
+
+.sec-wrap .right-section .right .check-card .price{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    
+    color: #262323;
+}
+.sec-wrap .right-section .right .line{
+        width: 278px;
+        height: 1px;
+        border-bottom: 1px solid #616161;
+        margin: 0 auto;
+}
+.sec-wrap .right-section .right .card-cont{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-between;
+}
+.sec-wrap .right-section .right .card-cont .total{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #616161;
+
+}
+.sec-wrap .right-section .right .card-cont .price{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    
+    
+    color: #262323;
+
+}
+.sec-wrap .right-section .right .check-card .total{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #616161;
+}
+.sec-wrap .right-section .right .check-card .price-cont .curr{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #616161;
+}
+.sec-wrap .right-section .right .check-card .price-cont .price{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #262323;
+}
+.sec-wrap .right-section .right .check-card .price-cont{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.sec-wrap .right-section .right .space{
+    width: 100%;
+    height: 20px;
+}
